@@ -1,0 +1,26 @@
+name: crossbow_widgets
+description: Provides simplified widgets for prototyping Crossbow games with Flutter.
+version: 0.0.1
+homepage: https://github.com/chrisnorman7/crossbow_widgets
+
+environment:
+  sdk: ">=3.1.0-129.0.dev <4.0.0"
+  flutter: ">=1.17.0"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+dependencies:
+  crossbow_backend:
+    path: ../crossbow/crossbow_backend
+  dart_sdl: ^0.10.1
+  dart_synthizer: ^0.11.2
+  dart_tolk: ^1.4.0
+  flutter:
+    sdk: flutter
+  ziggurat: ^0.61.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
