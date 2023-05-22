@@ -4,9 +4,9 @@ import 'crossbow_widgets.dart';
 
 /// The top-level app object.
 /// [ProjectContextScreen].
-class MyApp extends StatelessWidget {
+class ProjectContextApp extends StatelessWidget {
   /// Create an instance.
-  const MyApp({
+  const ProjectContextApp({
     required this.getProjectContext,
     super.key,
   });
