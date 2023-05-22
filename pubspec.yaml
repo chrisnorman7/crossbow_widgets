@@ -10,7 +10,9 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 dependencies:
   crossbow_backend:
-    path: ../crossbow/crossbow_backend
+    git:
+      url: https://github.com/chrisnorman7/crossbow
+      path: crossbow_backend
   dart_sdl: ^0.10.1
   dart_synthizer: ^0.11.2
   dart_tolk: ^1.4.0
