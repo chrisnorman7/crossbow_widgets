@@ -1,0 +1,8 @@
+{
+	"Add `LogicalKeyboardKey` to `ScanCode` convertion": {
+		"body": "LogicalKeyboardKey.${1:key}: ScanCode.${2:scanCode},\n",
+		"description": "Add an entry to the `keyTable` dictionary",
+		"prefix": "kc",
+		"scope": "dart"
+	}
+}

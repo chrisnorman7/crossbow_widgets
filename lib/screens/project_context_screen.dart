@@ -1,7 +1,10 @@
 import 'package:crossbow_backend/crossbow_backend.dart';
 import 'package:flutter/material.dart';
 
-import 'project_context_widget.dart';
+import '../widgets/project_context_widget.dart';
+
+/// The type of a `getProjectContext` function.
+typedef ProjectContextFunction = ProjectContext Function();
 
 /// A screen to create and display a project context.
 class ProjectContextScreen extends StatefulWidget {
@@ -12,7 +15,7 @@ class ProjectContextScreen extends StatefulWidget {
   });
 
   /// The function to call to get a project context.
-  final ProjectContext Function() getProjectContext;
+  final ProjectContextFunction getProjectContext;
   @override
   State<ProjectContextScreen> createState() => _ProjectContextScreenState();
 }
